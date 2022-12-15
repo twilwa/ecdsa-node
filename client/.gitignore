@@ -22,21 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.env
 
-
-anon@anon-Latitude-E7450:~/repos/ecdsa-node/server$ node scripts/generate.js 
-private key: 491c341469b7e4a2cf8d3201dea6a038fb4a8a2335fac13ca638c2834c4f1096
-public key: 044fee95e8c6ea6f42799baa63f1e4dbcddea8edd72ed0bfba8323a4454aa3841db1e3cb47a8f5cb3ec4ba35695df52083f30a5071b6fa556bbba560088d486e88
-key hash: 3465dc22c84d2549d19de106ae7dac5005045b1807e30d0bc6edf41ae9952aa1
-condensed key: 0d0bc6edf41ae9952aa1
-anon@anon-Latitude-E7450:~/repos/ecdsa-node/server$ ^C
-anon@anon-Latitude-E7450:~/repos/ecdsa-node/server$ node scripts/generate.js 
-private key: 6b0f95c08b328e795522a4ef593e8919aec9dc67f9284585aae70b562f090e3b
-public key: 0479f9800cbe95f1d99825be8d34e46fe6da72b190efd14125d9bac3d0b6a92c11a8c31ae9d3d4d1aba4c9f4540e532913f11f8cbd4e51b1918883507a387e41f1
-key hash: 4f822ecc6a96c351b074506b4832d5a5d4ac32f6083c23c0bb8dbfaeaede0a2c
-condensed key: 23c0bb8dbfaeaede0a2c
-anon@anon-Latitude-E7450:~/repos/ecdsa-node/server$ node scripts/generate.js 
-private key: 7a6b9db4f667f4a3b41d1bcca381b5a0f07ca4af9627a0dc7bcb523bf2bec464
-public key: 04f58b5f5328cc2ebba8acb3f3ad98064cf0dabba8d48547949a3917723bdb258c6392523d67d4ea40c52e39f05c0641fb8c77a826cc85044f98531a7149ea53d5
-key hash: 05dda017612858519aa0588dce1e46411ceec98b95a1ef3e73512c37aa0de57d
-condensed key: ef3e73512c37aa0de57d
