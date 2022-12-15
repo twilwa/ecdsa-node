@@ -1,5 +1,7 @@
 import { useState } from "react";
 import server from "./server";
+import dotenv from "dotenv";
+dotenv.config();
 
 function Transfer({ address, setBalance }) {
   const [sendAmount, setSendAmount] = useState("");

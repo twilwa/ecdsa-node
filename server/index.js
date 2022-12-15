@@ -2,9 +2,12 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const port = 3042;
+require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
+
+console.log(process.env.PKEY_1);
 
 const balances = {
   "04bcf844e7d02874d258578548ac33bd21f57f52959408ad88c44ad48e82554a4f4537c0974e34d3736dd28a9d9b6cbb67f7776c117fc5d34b926f6298e8b4e13b": 100,
